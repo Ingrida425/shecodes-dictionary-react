@@ -9,15 +9,19 @@ export default function Photos(props) {
         <div className="container">
           <div className="row">
             {props.photos.map(function (photo, index) {
-              return (
-                <div className="col" key={index}>
-                  <img
-                    src={photo.src.landscape}
-                    alt={photo.alt}
-                    className="img-fluid"
-                  />
-                </div>
-              );
+              if (index < 6) {
+                return (
+                  <div className="col" key={index}>
+                    <img
+                      src={photo.src.landscape}
+                      alt={photo.alt}
+                      className="img-fluid"
+                    />
+                  </div>
+                );
+              } else {
+                return null;
+              }
             })}
           </div>
         </div>
