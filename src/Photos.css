@@ -1,0 +1,22 @@
+.Photos img {
+  border-radius: 8px;
+}
+.Photos .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4px;
+}
+.Photos .col {
+  flex: 25%;
+  padding: 0 4px;
+}
+.Photos .col img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+@media screen and (max-width: 600px) {
+  .Photos .col {
+    flex: 50%;
+  }
+}
