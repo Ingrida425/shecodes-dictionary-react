@@ -12,11 +12,17 @@ export default function Photos(props) {
               if (index < 6) {
                 return (
                   <div className="col" key={index}>
-                    <img
-                      src={photo.src.landscape}
-                      alt={photo.alt}
-                      className="img-fluid"
-                    />
+                    <a
+                      href={photo.src.original}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <img
+                        src={photo.src.landscape}
+                        alt={photo.alt}
+                        className="img-fluid"
+                      />
+                    </a>
                   </div>
                 );
               } else {

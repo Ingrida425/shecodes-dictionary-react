@@ -7,5 +7,7 @@
   font-weight: 600;
   color: #283149;
   opacity: 0.7;
-  text-decoration: underline;
+  border: 1px dashed #283149;
+  padding: 4px 8px;
+  border-radius: 16px;
 }

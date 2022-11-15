@@ -9,7 +9,27 @@ export default function App() {
         <main>
           <Dictionary />
         </main>
-        <footer className="App-footer"> lalala Coded by Ingrida Kostiuk</footer>
+        <footer className="App-footer">
+          {" "}
+          This project was coded by <strong>Ingrida Kostiuk</strong> and is{" "}
+          <a
+            href="https://github.com/Ingrida425/shecodes-dictionary-react.git"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {" "}
+            open-sourced on GitHub
+          </a>{" "}
+          and hosted on{" "}
+          <a
+            href="https://rococo-meringue-330f7c.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {" "}
+            Netlify
+          </a>
+        </footer>
       </div>
     </div>
   );
