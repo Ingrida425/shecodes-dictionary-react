@@ -5,7 +5,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header">There will be the Dictionary 📚</header>
+        <header className="App-header"> The Dictionary Project 🤓📚</header>
         <main>
           <Dictionary />
         </main>
