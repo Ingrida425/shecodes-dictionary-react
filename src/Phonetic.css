@@ -18,3 +18,8 @@
   opacity: 0.7;
   color: #240747;
 }
+@media screen and (max-width: 600px) {
+  .Phonetic .text {
+    font-size: 1rem;
+  }
+}

@@ -15,3 +15,14 @@
 .Meaning .paragraph {
   padding: 10px;
 }
+@media screen and (max-width: 600px) {
+  .Meaning h3 {
+    font-size: 1.3rem;
+  }
+  .Meaning .definition {
+    font-size: 1.1rem;
+  }
+  .Meaning .example {
+    font-size: 1rem;
+  }
+}

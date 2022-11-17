@@ -11,3 +11,8 @@
   padding: 4px 8px;
   border-radius: 16px;
 }
+@media screen and (max-width: 600px) {
+  .Synonyms li {
+    font-size: 0.9rem;
+  }
+}
